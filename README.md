@@ -8,7 +8,7 @@ them to the Flask application instance. The return value of this view function i
 the client receives. If the client is a web browser, this response is the document that is
 displayed to the user in the browser window.
 
-A request object, which encapsulates the HTTP request sent by the client.
+A request object, which encapsulates the HTTP request sent by the client. There are two contexts in Flask: the application context and the request context.
 
 ## User Login Form
 
