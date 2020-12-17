@@ -11,7 +11,8 @@ displayed to the user in the browser window.
 A request object, which encapsulates the HTTP request sent by the client. There are two contexts in Flask: the application context and the request context.
 
 ## User Login Form
-
+Rendering HTML forms and submitting forms through POST request. Responding to POST requests with a redirect instead of a normal
+response, Post/Redirect/Get pattern.
 
 ### Generating Links
 
