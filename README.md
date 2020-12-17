@@ -17,25 +17,38 @@ response, Post/Redirect/Get pattern.
 ### Generating Links
 
 ## Database
-### Flask SQLAlchemy
+### SQLAlchemy
+SQLAlchemy is a powerful relational database framework that supports several database backends. 
+It offers a high-level ORM and low-level access to the database’s native SQL functionality.
 ### Database Relationships
+Roles and Users
+
+## Emails
+### Email Support
 
 ## User Logins
-### Password Hashing
-### Logging users out
+With Flask-auth and decorators
 
-## User Registration
+## Account Management
+### Password updates
+### Password resets
+### Email address changes
+
+## User roles
+### Role Assignment
+### Role Verification
 
 ## Profile Page
 ### Avatars
+### Profile Editor
+
+## Blog Posts
+### Paginating Long Blog Post Lists
+### Editor 
+### Permanenet Links
 
 ## User Followers
+### Many to Many relationships
 ### Adding Followers
 ### Obtaining Posts from Followed Users
 ### Adding comments
-
-## Submission of Blog Post
-
-## Displaying Blog Posts
-
-## Password reset Tokens
